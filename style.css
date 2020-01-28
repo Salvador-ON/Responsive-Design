@@ -1,17 +1,13 @@
-/*
-MEDIA BREAKPOINTS
-320 TO 719
-720 TO 1023
-1024+
-*/
-
 body{
     min-width: 320px;
     max-width: 719px;    
 }
 
+/* #region section 1 */
+
 .section-1{
     margin: 5px 10px;
+    
 }
 
 .article-1{
@@ -43,6 +39,10 @@ body{
 
     border: solid 1px black;
 }
+
+/* #endregion */
+
+/* #region section latest */
 
 .section-latest{
     margin: 5px 10px;
@@ -78,11 +78,64 @@ body{
     float: left;
 }
 
+/* #endregion */
+
+/* #region section funding */
+
+.section-funding{
+    margin: 5px 10px;
+}
+
+.funding-header{    
+    border: solid 1px black;
+}
+
+.funding-links{
+    display: block;
+}
+
+.funding-1{
+    width: 100%;
+    height: 250px;
+    margin: 5px 0;
+
+    border: solid 1px black;
+}
+
+.funding-2{
+    width: 100%;
+    height: 250px;
+    margin: 5px 0;
+
+    border: solid 1px black;
+}
+
+.funding-3{
+    width: 100%;
+    height: 250px;
+    margin: 5px 0;
+
+    border: solid 1px black;
+}
+
+.funding-4{
+    width: 100%;
+    height: 250px;    
+    margin: 5px 0;
+    display: none;
+
+    border: solid 1px black;
+}
+
+/* #endregion */
+
 @media only screen and (min-width: 720px) and (max-width: 1023px){
     body{
         min-width: 720px;
         max-width: 1023px;
     }
+
+    /* #region section 1 */
 
     .article-1{
         height: 405px;
@@ -99,9 +152,16 @@ body{
 
     .article-3{
         height: 200px;
-        width: 34.5%;        
+        width: 34.5%;
+        margin: 0;     
         float: right;
     }
+
+
+
+    /* #endregion */
+
+    /* #region section latest */
 
     .latest-container{
      display: flex;
@@ -126,13 +186,47 @@ body{
         width: 70%;
         float: none;
     }
+
+    /* #endregion */
+    
+    /* #region section funding */
+
+.funding-links{
+    display: inline;
+    padding: 0 10px;
+}
+
+.funding-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.funding-1{
+    margin-right: 5px;
+    flex: 1 1 auto;    
+}
+
+.funding-2{
+    flex: 1 1 auto;
+}
+
+.funding-3{
+    margin-left: 5px;
+    flex: 1 1 auto;
+}
+
+/* #endregion */
+
 }
 
 @media only screen and (min-width: 1024px){
     body{
         min-width: 1024px;
         max-width: 1600px;
-    }    
+    }
+    
+    /* #region section 1 */
     
     .article-1 {
         height: 505px;
@@ -151,7 +245,12 @@ body{
         width: 34.5%;
         height: 250px;
         float: right;
+        margin: 0;
     }
+
+    /* #endregion */
+
+    /* #region latest */
 
     .latest-container{
         display: flex;
@@ -176,4 +275,42 @@ body{
            width: 70%;
            float: none;
        }
+
+       /* #endregion */
+
+    /* #region funding */
+    
+    .funding-header{        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .funding-links{
+        display: inline;
+        padding: 0 10px;
+    }
+    
+    .funding-wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .funding-1, .funding-2{
+        margin-right: 5px;
+        flex: 1 1 auto;    
+    }
+    
+    .funding-3{
+        flex: 1 1 auto;
+    }
+    
+    .funding-4{
+        width: 100%;        
+        display: block;        
+        margin-left: 5px;
+        flex: 1 1 auto;        
+    }
+
+    /* #endregion */
 }
