@@ -129,7 +129,8 @@ body {
   margin: 5px 10px;
 }
 
-.news-container {
+.news-container, 
+.news-container2 {
   height: 350px;
   border: 1px solid black;
   margin: 5px 0;
@@ -271,7 +272,8 @@ body {
     justify-content: space-between;
   }
 
-  .news-container {
+  .news-container,
+  .news-container2 {
     width: 48%;
     height: 350px;
     margin: 5px 0;
@@ -422,11 +424,19 @@ body {
 
   .news-container {
     box-sizing: border-box;
-    width: 32.85%;
+    width: 32%;
     height: 350px;
-    margin-top: 5px;
-    margin-right: 5px;
+    margin: 5px 2px;
+    flex: 1 1 auto;
   }
+
+  .news-container2 {
+    box-sizing: border-box;
+    width: 33%;
+    height: 350px;
+    margin: 5px 2px;
+  }
+
 
   /* #endregion */
 
