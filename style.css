@@ -137,6 +137,36 @@ body {
 
 /* #endregion */
 
+/* #region deals */
+
+.section-deals{
+    margin: 5px 10px;
+}
+
+.deals-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.deals-wrapper{
+    border: solid 1px red;
+}
+
+.deal-1, .deal-2, .deal-3, .deal-4, .deal-5, .deal-6, .deal-7, .deal-8{
+    height: 80px;
+    width: 100%;
+    margin-bottom: 5px;
+    
+    border: solid 1px black;
+}
+
+.deal-9{
+    display: none;
+}
+
+/* #endregion */
+
 @media only screen and (min-width: 720px) and (max-width: 1023px) {
   body {
     min-width: 720px;
@@ -248,6 +278,40 @@ body {
   }
 
   /* #endregion */
+
+/* #region section deals */
+
+.deals-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.deal-1, .deal-2, .deal-4, .deal-5, .deal-7, .deal-8{
+    height: 250px;
+    width: 30%;
+    margin-right: 5px;
+    flex-grow: 1;
+}
+
+.deal-3, .deal-6{
+    height: 250px;
+    width: 30%;    
+    flex-grow: 1;
+}
+
+.deal-9{
+    display: block;
+    visibility: hidden;
+    height: 250px;
+    width: 30%;
+    flex-grow: 1;
+    border: solid 1px black;
+}
+
+/* #endregion */
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -310,7 +374,7 @@ body {
 
   /* #endregion */
 
-  /* #region funding */
+  /* #region section funding */
 
   .funding-header {
     display: flex;
@@ -363,6 +427,30 @@ body {
     margin-top: 5px;
     margin-right: 5px;
   }
+
+  /* #endregion */
+
+  /* #region section deals */
+
+.deals-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.deal-1, .deal-2, .deal-3, .deal-5, .deal-6, .deal-7{
+    height: 250px;
+    width: 24%;
+    margin-right: 5px;
+    flex-grow: 1;
+}
+
+.deal-4, .deal-8{
+    height: 250px;
+    width: 24%;    
+    flex-grow: 1;
+}
 
   /* #endregion */
 }
