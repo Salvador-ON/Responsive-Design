@@ -3,8 +3,51 @@ body {
   max-width: 719px;
 }
 
-/* #region section 1 */
+/* #region nav-bar*/
+.nav-bar{
+  background-color: blue;
+  height: 50px;
+}
 
+
+.fix-menu-white{
+  background-color: coral;
+  height: 48px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo-tnw{
+ width: 106px;
+ height: 48px;
+ background-color: chartreuse;
+}
+
+.s-ui-buttons{
+  width: 96px;
+  height: 48px;
+  background-color: grey;
+}
+
+.fix-message-yellow{
+  background-color: yellow;
+  height: 30px;
+  position: fixed;
+  top: 45px;
+  left: 0;
+  right: 0;
+}
+
+
+
+/* #endregion */
+
+/* #region section 1 */
 .section-1 {
   margin: 5px 10px;
 }
@@ -174,6 +217,26 @@ body {
     max-width: 1023px;
   }
 
+  /*nav-bar*/
+  .fix-menu-black {
+    background-color: black ;
+    height: 32px;
+    position: fixed;
+    top: 0;
+    left: 106px;
+    right: 0;
+  }
+
+  .fix-menu-white{
+    top: 32px;
+  }
+
+  .fix-message-yellow{
+    top: 77px;
+  }
+
+  /* #endregion */
+
   /* #region section 1 */
 
   .article-1 {
@@ -321,6 +384,26 @@ body {
     min-width: 1024px;
     max-width: 1600px;
   }
+
+    /*nav-bar*/
+    .fix-menu-black {
+      background-color: black ;
+      height: 32px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+  
+    .fix-menu-white{
+      top: 32px;
+    }
+  
+    .fix-message-yellow{
+      top: 77px;
+    }
+  
+    /* #endregion */
 
   /* #region section 1 */
 
