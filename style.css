@@ -3,35 +3,45 @@ body {
   max-width: 719px;
 }
 
+main{
+  top: 120px;
+}
+
 /* #region nav-bar*/
 .nav-bar{
-  background-color: blue;
   height: 80px;
 }
 
 
 .fix-menu-white{
-  background-color: coral;
+  background-color: #f3f2f2;
   height: 48px;
   display: flex;
   flex-flow: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   position: fixed;
   top: 0;
-  left: 0;
+  left: 105px;
   right: 0;
 }
 
 .logo-tnw{
  width: 106px;
  height: 48px;
- background-color: chartreuse;
+ background-image: linear-gradient(rgb(187, 3, 49), #ff0000);
+ position: fixed;
+ left: 0;
+ text-align: center;
+ padding-top: 15px;
+ box-sizing: border-box;
+}
+
+#nav-logo{
+  width: 66px;
 }
 
 .s-ui-buttons{
-  width: 96px;
   height: 48px;
-  background-color: grey;
 }
 
 .fix-message-yellow{
@@ -41,15 +51,60 @@ body {
   top: 45px;
   left: 0;
   right: 0;
+  text-align: center;
+  padding-top: 7px;
+  box-sizing: border-box;
 }
 
+#yellow-info{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
 
+.nav-but{
+  border-left: lightgray 1px solid;
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.nav-list li {
+  display: inline-block;
+}
+
+.nav-list{
+  padding: 0;
+  margin: 0;
+}
+
+#serach-ico{
+  width: 20px;
+  height: 20px;
+  padding: 14px;
+}
+
+#ui-ico{
+  width: 20px;
+  height: 20px;
+  padding: 14px;
+}
+
+.list-nav1{
+  display: none;
+}
+
+.white-list{
+  display: none;
+}
 
 /* #endregion */
 
 /* #region section 1 */
 .section-1 {
   margin: 5px 10px;
+  overflow: auto;
 }
 
 .article-1 {
@@ -300,15 +355,71 @@ footer{
     top: 0;
     left: 106px;
     right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .fix-menu-white{
     top: 32px;
+    justify-content: space-between;
   }
 
   .fix-message-yellow{
     top: 77px;
   }
+
+  .logo-tnw{
+    width: 106px;
+    height: 80px;
+    background-color: chartreuse;
+    position: fixed;
+    left: 0;
+    top: 0;
+    }
+
+    #search-li{
+      display: none;
+    }
+
+  .list-nav1 li{
+    display: inline-block;
+  }
+
+  .list-nav1 {
+    margin: 0;
+    padding: 5px 0 0 0;
+    vertical-align: middle;
+    display: block;
+  }
+
+  .link-nav1 {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    font-size: 12px;
+    
+  }
+
+  
+    .white-list li{
+      display: inline-block;
+    }
+
+    .white-link{
+    text-decoration: none;
+    color: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    font-size: 18px;
+    }
+
+    .white-list{
+    margin: 0;
+    padding: 15px 0 0 0;
+    display: block;
+    }
 
   /* #endregion */
 
@@ -477,15 +588,70 @@ footer{
       top: 0;
       left: 0;
       right: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
     }
   
     .fix-menu-white{
       top: 32px;
+      justify-content: space-between;
     }
   
     .fix-message-yellow{
       top: 77px;
     }
+
+    .logo-tnw{
+      display: none;
+      }
+
+      .fix-menu-white{
+        left: 0;
+      }
+
+      #search-li{
+        display: none;
+      }
+  
+    .list-nav1 li{
+      display: inline-block;
+    }
+  
+    .list-nav1 {
+      margin: 0;
+      padding: 5px 0 0 0;
+      vertical-align: middle;
+      display: block;
+    }
+  
+    .link-nav1 {
+      text-decoration: none;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 5px;
+      font-size: 12px;
+    }
+  
+      
+
+      .white-list li{
+        display: inline-block;
+      }
+  
+      .white-link{
+      text-decoration: none;
+      color: #808080;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 5px;
+      font-size: 18px;
+      }
+  
+      .white-list{
+      margin: 0;
+      padding: 15px 0 0 0;
+      display: block;
+      }
   
     /* #endregion */
 
