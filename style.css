@@ -106,6 +106,10 @@ body {
   overflow: auto;
 }
 
+.landing-title {
+  display: none;
+}
+
 .article-1 {
   box-sizing: border-box;
   width: 100%;
@@ -534,10 +538,6 @@ body {
   justify-content: space-between;
 }
 
-.deals-wrapper {
-  border: solid 1px red;
-}
-
 .deal-1,
 .deal-2,
 .deal-3,
@@ -549,12 +549,51 @@ body {
   height: 80px;
   width: 100%;
   margin-bottom: 5px;
-  border: solid 1px black;
 }
 
 .deal-9 {
   display: none;
 }
+
+.deal-pic {
+  height: 75px;
+  width: 75px;
+  object-fit: cover;
+  padding: 3px 10px;
+  float: left;
+}
+
+.deal-text a {
+  text-decoration: none;
+}
+
+.deal-title {
+  margin: 0;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.deal-price {
+  margin: 0;
+  padding: 0 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #777;
+  text-decoration: line-through;
+}
+
+.deal-offer {
+  margin: 0;
+  padding: 0 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
 
 /* #endregion */
 
@@ -908,7 +947,7 @@ footer {
   .deal-5,
   .deal-7,
   .deal-8 {
-    height: 250px;
+    height: auto;
     width: 30%;
     margin-right: 5px;
     flex-grow: 1;
@@ -916,7 +955,7 @@ footer {
 
   .deal-3,
   .deal-6 {
-    height: 250px;
+    height: auto;
     width: 30%;
     flex-grow: 1;
   }
@@ -924,10 +963,16 @@ footer {
   .deal-9 {
     display: block;
     visibility: hidden;
-    height: 250px;
+    height: auto;
     width: 30%;
     flex-grow: 1;
-    border: solid 1px black;
+  }
+
+  .deal-pic {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
   }
 
   /* #endregion */
@@ -1237,7 +1282,7 @@ footer {
   .deal-5,
   .deal-6,
   .deal-7 {
-    height: 250px;
+    height: auto;
     width: 24%;
     margin-right: 5px;
     flex-grow: 1;
@@ -1245,9 +1290,16 @@ footer {
 
   .deal-4,
   .deal-8 {
-    height: 250px;
+    height: auto;
     width: 24%;
     flex-grow: 1;
+  }
+
+  .deal-pic {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
   }
 
   /* #endregion */
