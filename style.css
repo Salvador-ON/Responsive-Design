@@ -452,6 +452,46 @@ body {
   box-sizing: border-box;
 }
 
+.pnc1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/moviepass-796x419.png);
+  background-size: cover;
+}
+
+.pnc2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2FApple-AirPods-Pro.jpg&signature=eeb60b2eb429f8a0afe01ba584eeebc9);
+  background-size: cover;
+}
+
+.pnc3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-2-1-796x417.png);
+  background-size: cover;
+}
+
+.pnc4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/GodfallTeaser04-796x448.png);
+  background-size: cover;
+}
+
+.pnc5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F01%2F00-Cover-–-DataReportal-Digital-2020-Global-Digital-Overview-Slide-.png&signature=ce912041f4da99a588d52e58ac5f6c9a);
+  background-size: cover;
+}
+
+.pnc6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/paris-museums-15000-images-online-copyright-796x417.jpg);
+  background-size: cover;
+}
+
+.pnc7 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-796x419.jpgg);
+  background-size: cover;
+}
+
+.pnc8 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/Google-Android-Developer-Options-796x417.jpg);
+  background-size: cover;
+}
+
 .info-section {
   color: #8f8f8f;
   font-family: Arial, Helvetica, sans-serif;
@@ -485,6 +525,46 @@ body {
   background: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F01%2Fheader-image-tim-cook-Apple-financials-1.png&signature=b99870d503faa8eefb0f467ad99ab2c2) -40px 0 no-repeat;
   background-size: cover;
   flex-shrink: 0;
+}
+
+.tp1 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Google-translate.png) -70px 0 no-repeat;
+  background-size: cover;
+}
+
+.tp2 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Snag_400158cd.png) -70px 0 no-repeat;
+  background-size: cover;
+}
+
+.tp3 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Copy-of-Copy-of-Copy-of-Copy-of-...-1-1.png) -50px 0 no-repeat;
+  background-size: cover;
+}
+
+.tp4 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/instagram-photoshop-hide-misinformation.jpg) -70px 0 no-repeat;
+  background-size: cover;
+}
+
+.tp5 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design47.png) -55px 0 no-repeat;
+  background-size: cover;
+}
+
+.tp6 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/cambodia.jpg) -70px 0 no-repeat;
+  background-size: cover;
+}
+
+.tp7 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Press-Conference-with-Eric-Esrailian-Alexis-Ohanian-Hakob-Arshakyan-Yervant-Zorian-and-Serj-Tankian-hed.jpg) -70px 0 no-repeat;
+  background-size: cover;
+}
+
+.tp8 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Snag_2267466a.png) -70px 0 no-repeat;
+  background-size: cover;
 }
 
 .text-news-title {
