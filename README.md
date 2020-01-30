@@ -29,7 +29,7 @@ Creating a responsive page replicating the landing page of thenextweb.com
 
 - Github: [@Salvador-ON](https://github.com/Salvador-ON)
 - Twitter: [@Salvador_ON](https://twitter.com/Salvador_ON)
-- Linkedin: [linkedin](https://www.linkedin.com/in/salvador-olvera-n)
+- Linkedin: [Salvador Olvera](https://www.linkedin.com/in/salvador-olvera-n)
 
 ## Show your support
 
