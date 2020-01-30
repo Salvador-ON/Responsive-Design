@@ -1,7 +1,7 @@
 body {
   min-width: 320px;
   max-width: 719px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -286,33 +286,50 @@ body {
   margin: 5px 10px;
 }
 
+.section-funding a{
+  text-decoration: none;
+}
+
 .funding-header {
-  border: solid 1px black;
+   padding-bottom: 20px;
+}
+
+.funding-title{
+  color: #f00;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 26px;
 }
 
 .funding-links {
   display: block;
+  color: #f00;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+.funding-link-divisor{
+  stroke: #f00;
+  stroke-width: 2px;
+  display: none;
 }
 
 .funding-1 {
   width: 100%;
   height: 250px;
-  margin: 5px 0;
-  border: solid 1px black;
+  margin: 5px 0;  
 }
 
 .funding-2 {
   width: 100%;
   height: 250px;
-  margin: 5px 0;
-  border: solid 1px black;
+  margin: 5px 0;  
 }
 
 .funding-3 {
   width: 100%;
   height: 250px;
-  margin: 5px 0;
-  border: solid 1px black;
+  margin: 5px 0;  
 }
 
 .funding-4 {
@@ -320,8 +337,76 @@ body {
   height: 250px;
   margin: 5px 0;
   display: none;
-  border: solid 1px black;
 }
+
+.funding-top{
+  display: block;
+  height: 100px;
+  width: 100%x;
+  background: linear-gradient(red 0%, red 35%, #fff 35%, #fff 100%);
+  
+}
+
+.funding-img{
+  float: left;
+  margin: 15px;
+}
+
+.funding-top-text{
+  padding-top: 8px;  
+}
+
+.funding-subtitle{
+  margin: 0;
+  padding: 0 0 10px 0; 
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  white-space: nowrap;
+  text-overflow: ellipsis;  
+}
+
+.funding-amount{  
+  color: #000;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+.funding-type{
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.funding-body{
+  padding: 15px 10px;
+  border-bottom: solid 1px #f00;
+  background-color: #fdd;
+}
+
+.funding-details{  
+  color: #333;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.funding-bottom{
+  padding: 15px 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fdd;
+}
+
+.funding-bottom-text{
+  color: #333;
+}
+
+.funding-alt-text{
+  color: #777;
+}
+
 
 /* #endregion */
 
@@ -659,6 +744,10 @@ footer {
 
   /* #region section funding */
 
+  .funding-link-divisor{
+    display: inline-block;
+  }
+
   .funding-links {
     display: inline;
     padding: 0 10px;
@@ -755,7 +844,7 @@ footer {
 @media only screen and (min-width: 1024px) {
   body {
     min-width: 1024px;
-    max-width: 1600px;
+    max-width: 100%;
   }
 
   /* #region nav-bar */
@@ -966,6 +1055,10 @@ footer {
   .funding-links {
     display: inline;
     padding: 0 10px;
+  }
+
+  .funding-link-divisor{
+    display: inline-block;
   }
 
   .funding-wrapper {
