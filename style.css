@@ -221,8 +221,61 @@ body {
 .info-art {
   box-sizing: border-box;
   border: solid 1px green;
-  width: 70%;
+  width: 80%;
   float: left;
+  overflow: auto;
+}
+
+.title-red {
+  font-size: 18px;
+  color: #ff0000;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px 0;
+}
+
+.autor-date {
+  font-size: 14px;
+  color: #8f8f8f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.a1 {
+  background: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F01%2Ftesla-stock-billion-dollar-car-maker-trade-hard-fork-finance-nasdaq-TSLA.png&signature=b5c5d456764e0d27e57fee2959693d80);
+  background-size: cover;
+}
+
+.a2 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/India-shooter.jpg)-30px 0 no-repeat;
+  background-size: cover;
+}
+
+.a3 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Copy-of-Copy-of-Copy-of-Copy-of-...-3-796x417.png);
+  background-size: cover;
+}
+
+.a4 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/kDsg9Ra-796x398.jpg)-30px 0 no-repeat;
+  background-size: cover;
+}
+
+.a5 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/sale_25674_primary_image_wide-796x398.jpg)-30px 0 no-repeat;
+  background-size: cover;
+}
+
+.a6 {
+  background: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F01%2Fapple-tv-airplay-2-money-header.png&signature=a0eeb6ef933266132bf696c2dd1f30d6)-30px 0 no-repeat;
+  background-size: cover;
+}
+
+.a7 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/paris-museums-15000-images-online-copyright-796x417.jpg)-30px 0 no-repeat;
+  background-size: cover;
+}
+.a8 {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/image-1-480x270.png") -30px 0 no-repeat;
+  background-size: cover;
 }
 
 /* #endregion */
@@ -539,13 +592,67 @@ footer {
 
   .pic-box {
     float: none;
-    height: 128px;
+    height: 55%;
     width: 95%;
+    margin: 0 auto;
   }
 
   .info-art {
-    width: 70%;
+    width: 95%;
     float: none;
+    margin: 0 auto;
+  }
+
+  .title-red {
+    font-size: 18px;
+    color: #ff0000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0;
+  }
+
+  .autor-date {
+    font-size: 14px;
+    color: #8f8f8f;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .a1 {
+    background: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F01%2Ftesla-stock-billion-dollar-car-maker-trade-hard-fork-finance-nasdaq-TSLA.png&signature=b5c5d456764e0d27e57fee2959693d80);
+    background-size: cover;
+  }
+
+  .a2 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/India-shooter.jpg);
+    background-size: cover;
+  }
+
+  .a3 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Copy-of-Copy-of-Copy-of-Copy-of-...-3-796x417.png);
+    background-size: cover;
+  }
+
+  .a4 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/kDsg9Ra-796x398.jpg);
+    background-size: cover;
+  }
+
+  .a5 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/sale_25674_primary_image_wide-796x398.jpg);
+    background-size: cover;
+  }
+
+  .a6 {
+    background: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F01%2Fapple-tv-airplay-2-money-header.png&signature=a0eeb6ef933266132bf696c2dd1f30d6);
+    background-size: cover;
+  }
+
+  .a7 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/paris-museums-15000-images-online-copyright-796x417.jpg);
+    background-size: cover;
+  }
+  .a8 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/image-1-480x270.png");
+    background-size: cover;
   }
 
   /* #endregion */
@@ -737,7 +844,7 @@ footer {
     background:
       linear-gradient(to bottom right, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0) 50%),
       linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%),
-      url("../Responsive-Design/assets/landing_google_joker.jpg") center;
+      url("assets/landing_google_joker.jpg") center;
   }
 
   .article-1 .landing-article-title {
@@ -783,13 +890,67 @@ footer {
 
   .pic-box {
     float: none;
-    height: 128px;
+    height: 55%;
     width: 95%;
+    margin: 0 auto;
   }
 
   .info-art {
-    width: 70%;
+    width: 95%;
     float: none;
+    margin: 0 auto;
+  }
+
+  .title-red {
+    font-size: 18px;
+    color: #ff0000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0;
+  }
+
+  .autor-date {
+    font-size: 14px;
+    color: #8f8f8f;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .a1 {
+    background: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F01%2Ftesla-stock-billion-dollar-car-maker-trade-hard-fork-finance-nasdaq-TSLA.png&signature=b5c5d456764e0d27e57fee2959693d80);
+    background-size: cover;
+  }
+
+  .a2 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/India-shooter.jpg);
+    background-size: cover;
+  }
+
+  .a3 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Copy-of-Copy-of-Copy-of-Copy-of-...-3-796x417.png);
+    background-size: cover;
+  }
+
+  .a4 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/kDsg9Ra-796x398.jpg);
+    background-size: cover;
+  }
+
+  .a5 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/sale_25674_primary_image_wide-796x398.jpg);
+    background-size: cover;
+  }
+
+  .a6 {
+    background: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F01%2Fapple-tv-airplay-2-money-header.png&signature=a0eeb6ef933266132bf696c2dd1f30d6);
+    background-size: cover;
+  }
+
+  .a7 {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/paris-museums-15000-images-online-copyright-796x417.jpg);
+    background-size: cover;
+  }
+  .a8 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/image-1-480x270.png");
+    background-size: cover;
   }
 
   /* #endregion */
