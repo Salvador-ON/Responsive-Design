@@ -196,39 +196,53 @@ body {
 
 .latest-container {
   box-sizing: border-box;
-  border: solid 1px red;
   width: 100%;
   margin: 5px auto;
 }
 
-.news-art,
+.latest-title-red {
+  color: #f00;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.title-new-cont {
+  margin: 0;
+}
+
+.news-art {
+  box-sizing: border-box;
+  margin: 5px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .nc2 {
   box-sizing: border-box;
-  border: solid 1px black;
   margin: 5px auto;
-  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .pic-box {
   height: 75px;
   width: 75px;
   background-color: blue;
-  float: left;
-  display: block;
   margin: 5px;
 }
 
 .info-art {
   box-sizing: border-box;
-  border: solid 1px green;
   width: 80%;
-  float: left;
   overflow: auto;
 }
 
 .title-red {
   font-size: 18px;
-  color: #ff0000;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
   margin: 5px 0;
 }
@@ -273,6 +287,7 @@ body {
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/paris-museums-15000-images-online-copyright-796x417.jpg)-30px 0 no-repeat;
   background-size: cover;
 }
+
 .a8 {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/image-1-480x270.png") -30px 0 no-repeat;
   background-size: cover;
@@ -286,15 +301,15 @@ body {
   margin: 5px 10px;
 }
 
-.section-funding a{
+.section-funding a {
   text-decoration: none;
 }
 
 .funding-header {
-   padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
-.funding-title{
+.funding-title {
   color: #f00;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 900;
@@ -305,10 +320,10 @@ body {
   display: block;
   color: #f00;
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;  
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.funding-link-divisor{
+.funding-link-divisor {
   stroke: #f00;
   stroke-width: 2px;
   display: none;
@@ -317,19 +332,19 @@ body {
 .funding-1 {
   width: 100%;
   height: 250px;
-  margin: 5px 0;  
+  margin: 5px 0;
 }
 
 .funding-2 {
   width: 100%;
   height: 250px;
-  margin: 5px 0;  
+  margin: 5px 0;
 }
 
 .funding-3 {
   width: 100%;
   height: 250px;
-  margin: 5px 0;  
+  margin: 5px 0;
 }
 
 .funding-4 {
@@ -339,89 +354,170 @@ body {
   display: none;
 }
 
-.funding-top{
+.funding-top {
   display: block;
   height: 100px;
-  width: 100%x;
+  width: 100%;
   background: linear-gradient(red 0%, red 35%, #fff 35%, #fff 100%);
-  
 }
 
-.funding-img{
+.funding-img {
   float: left;
   margin: 15px;
 }
 
-.funding-top-text{
-  padding-top: 8px;  
+.funding-top-text {
+  padding-top: 8px;
 }
 
-.funding-subtitle{
+.funding-subtitle {
   margin: 0;
-  padding: 0 0 10px 0; 
+  padding: 0 0 10px 0;
   color: #fff;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 700;
   white-space: nowrap;
-  text-overflow: ellipsis;  
+  text-overflow: ellipsis;
 }
 
-.funding-amount{  
+.funding-amount {
   color: #000;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
 }
 
-.funding-type{
+.funding-type {
   color: #444;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
 
-.funding-body{
+.funding-body {
   padding: 15px 10px;
   border-bottom: solid 1px #f00;
   background-color: #fdd;
 }
 
-.funding-details{  
+.funding-details {
   color: #333;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.funding-bottom{
+.funding-bottom {
   padding: 15px 10px;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #fdd;
 }
 
-.funding-bottom-text{
+.funding-bottom-text {
   color: #333;
 }
 
-.funding-alt-text{
+.funding-alt-text {
   color: #777;
 }
-
 
 /* #endregion */
 
 /* #region section news */
 
 .section-news {
-  border: 1px solid red;
   margin: 5px 10px;
 }
 
 .news-container,
 .news-container2 {
-  height: 350px;
-  border: 1px solid black;
   margin: 5px 0;
+}
+
+.pic-news-con {
+  width: 100%;
+  height: 40vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F01%2Fheader-image-tim-cook-Apple-financials-1.png&signature=b99870d503faa8eefb0f467ad99ab2c2);
+  background-size: cover;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: baseline;
+  margin-bottom: auto;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.info-section {
+  color: #8f8f8f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.most-popular {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.pic-link {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.text-news-con {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fdd;
+}
+
+.txt-pic {
+  width: 96px;
+  height: 96px;
+  background: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F01%2Fheader-image-tim-cook-Apple-financials-1.png&signature=b99870d503faa8eefb0f467ad99ab2c2) -40px 0 no-repeat;
+  background-size: cover;
+  flex-shrink: 0;
+}
+
+.text-news-title {
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+.title-n-red {
+  color: #f00;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.title-n-red2 {
+  color: #f00;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.list-news-con {
+  width: 100%;
+  height: 20%;
+}
+
+.list-news {
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+.list-news li {
+  color: #ff4500;
+}
+
+.link-news {
+  text-decoration: none;
+  color: #000;
 }
 
 /* #endregion */
@@ -665,6 +761,7 @@ footer {
     width: 32%;
     height: 250px;
     margin: 2px;
+    flex-direction: column;
     flex: 1 1 auto;
   }
 
@@ -672,6 +769,7 @@ footer {
     width: 32.8%;
     height: 250px;
     margin: 2px;
+    flex-direction: column;
     flex: 0 1 auto;
   }
 
@@ -690,7 +788,7 @@ footer {
 
   .title-red {
     font-size: 18px;
-    color: #ff0000;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     margin: 5px 0;
   }
@@ -735,6 +833,7 @@ footer {
     background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/paris-museums-15000-images-online-copyright-796x417.jpg);
     background-size: cover;
   }
+
   .a8 {
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/image-1-480x270.png");
     background-size: cover;
@@ -744,7 +843,7 @@ footer {
 
   /* #region section funding */
 
-  .funding-link-divisor{
+  .funding-link-divisor {
     display: inline-block;
   }
 
@@ -787,7 +886,8 @@ footer {
   .news-container,
   .news-container2 {
     width: 48%;
-    height: 350px;
+
+    /* height: 350px; */
     margin: 5px 0;
   }
 
@@ -969,12 +1069,20 @@ footer {
     align-content: flex-end;
   }
 
-  .news-art,
+  .news-art {
+    width: 24%;
+    height: 250px;
+    margin: 2px;
+    flex: 1 1 auto;
+    flex-direction: column;
+  }
+
   .nc2 {
     width: 24%;
     height: 250px;
     margin: 2px;
     flex: 1 1 auto;
+    flex-direction: column;
   }
 
   .pic-box {
@@ -992,7 +1100,7 @@ footer {
 
   .title-red {
     font-size: 18px;
-    color: #ff0000;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     margin: 5px 0;
   }
@@ -1037,6 +1145,7 @@ footer {
     background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/paris-museums-15000-images-online-copyright-796x417.jpg);
     background-size: cover;
   }
+
   .a8 {
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/image-1-480x270.png");
     background-size: cover;
@@ -1057,7 +1166,7 @@ footer {
     padding: 0 10px;
   }
 
-  .funding-link-divisor{
+  .funding-link-divisor {
     display: inline-block;
   }
 
@@ -1097,7 +1206,8 @@ footer {
   .news-container {
     box-sizing: border-box;
     width: 32%;
-    height: 350px;
+
+    /* height: 350px; */
     margin: 5px 2px;
     flex: 1 1 auto;
   }
@@ -1105,7 +1215,8 @@ footer {
   .news-container2 {
     box-sizing: border-box;
     width: 33%;
-    height: 350px;
+
+    /* height: 350px; */
     margin: 5px 2px;
   }
 
