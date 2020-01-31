@@ -2,7 +2,7 @@
 
 > This is the sixth project of the Microverse Courses.
 
-![screenshot](./assets/app_screenshot.png)
+![screenshot](assets/app_screenshot.png)
 
 Creating a responsive page replicating the landing page of thenextweb.com
 
@@ -15,7 +15,9 @@ Creating a responsive page replicating the landing page of thenextweb.com
 
 - https://github.com/Salvador-ON/Responsive-Design
 
+## Live demo
 
+- https://raw.githack.com/Salvador-ON/Responsive-Design/master/index.html
 
 ## Authors
 
