@@ -2,7 +2,7 @@
 
 > This is the sixth project of the Microverse Courses.
 
-![screenshot](./assets/app_screenshot.png)
+![screenshot](/assets/app_screenshot.jpg)
 
 Creating a responsive page replicating the landing page of thenextweb.com
 
