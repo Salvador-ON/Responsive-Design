@@ -2,14 +2,14 @@
 
 > This is the sixth project of the Microverse Courses.
 
-![screenshot](assets/app_screenshot.png)
+![screenshot](./assets/app_screenshot.png)
 
 Creating a responsive page replicating the landing page of thenextweb.com
 
 ## Built With
 
-- HTML,
-- CSS,
+- HTML.
+- CSS.
 
 ## GitHub Repo
 
@@ -37,11 +37,6 @@ Creating a responsive page replicating the landing page of thenextweb.com
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Microverse
-- Our Families
-- Everyone else
 
 ## 📝 License
 
