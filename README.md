@@ -1,6 +1,6 @@
 # Responsive Design
 
-> This is the sixth project of the Microverse Courses.
+> This is the sixth project of the Microverse HTML Course.
 
 ![screenshot](/assets/app_screenshot.jpg)
 
